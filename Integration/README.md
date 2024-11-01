@@ -33,3 +33,16 @@ Although protection is in place to check for duplicate items, if called rapidly 
 
 **b: Weaknesses:**
 - Identify and describe any weaknesses that the solution might have in a text file.
+
+## Provided Solution
+
+### 1- Single Server Scenario
+
+**Solution Steps:**
+- The solution is implemented in the Service layer.
+- The solution is monitor based on a lock mechanism to ensure that the content related critical section is accessed by only one thread at a time. This brings the solution to the single server scenario.
+- The solution is tested in the Program.cs file.
+
+### 2 - Distributed System Scenario
+
+**TODO**
